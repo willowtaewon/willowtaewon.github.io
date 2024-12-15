@@ -172,7 +172,7 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](https://git
 
 ## Acknowledgements
 
-This project is a fork of the [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
+This project is a fork of the [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light) repository.
 
 The original project uses the source code from the following repositories:
 
