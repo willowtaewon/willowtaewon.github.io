@@ -2,13 +2,11 @@
 
 [![LICENSE](https://img.shields.io/github/license/Xiao-Chenguang/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/Xiao-Chenguang/minimal-light/blob/main/LICENSE)
 
-\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
+\[[Demo the theme](https://xiao-chenguang.github.io/minimal-light/)\]  \[[简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
  
 *This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Feel free to use and share the source code anywhere you like.*
-
-The latest version of my homepage is available here: [[link](https://github.com/Xiao-Chenguang/Xiao-Chenguang.github.io)]
 
 ## Features
 
