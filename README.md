@@ -1,14 +1,14 @@
 # The Minimal Light Theme
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/Xiao-Chenguang/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/Xiao-Chenguang/minimal-light/blob/main/LICENSE)
 
-\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
+\[[Demo the theme](https://minimal-light-theme.yliu.me/)\]  \[[简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
  
 *This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Feel free to use and share the source code anywhere you like.*
 
-The latest version of my homepage is available here: [[link](https://github.com/yaoyao-liu/yaoyao-liu.github.io)]
+The latest version of my homepage is available here: [[link](https://github.com/Xiao-Chenguang/Xiao-Chenguang.github.io)]
 
 ## Features
 
@@ -25,9 +25,10 @@ The latest version of my homepage is available here: [[link](https://github.com/
 .
 ├── _data                    
 |   └── publications.yml                      # the YAML file for publications
+|   └── services.yml                          # the YAML file for services
 ├── _includes                    
-|   ├── publications.md                       # the Markdown file for publications
-|   └── services.md                           # the Markdown file for services
+|   ├── publications.html                     # the Markdown file for publications
+|   └── services.html                         # the Markdown file for services
 ├── _layouts                  
 |   └── homepage.html                         #  the html template for the homepage 
 ├── _sass
@@ -69,7 +70,7 @@ There are two ways to use this template on GitHub:
 To use this theme, add the following to your repository's `_config.yml`:
 
 ```yaml
-remote_theme: yaoyao-liu/minimal-light
+remote_theme: Xiao-Chenguang/minimal-light
 ```
 
 Please note that adding the above line will directly apply all the default settings in this repository to yours.
@@ -83,7 +84,7 @@ First, install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyll
 Then, clone this repository:
 
 ```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
+git clone https://github.com/Xiao-Chenguang/minimal-light.git
 cd minimal-light
 ```
 Install and run:
@@ -153,14 +154,11 @@ google_analytics: UA-111540567-4
 
 Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
 
-### Edit included files
+### Customizing the Publications and Services
 
-There are two markdown files included in `index.md`. They are `_includes/publications.md` and `_includes/service.md`, respectively. These two files also support **Markdown** and **HTML** syntax. If you don't hope to include these two files, you may remove the following lines in `index.md`:
-https://github.com/yaoyao-liu/minimal-light/blob/b38070cd0b6bce45d8a885f3828549af8f82b7cb/index.md?plain=1#L21-L23
+There are two yml files used for customization of **Publications** and **Services** in `homepage.html`. They are `_data/publications.yml` and `_data/service.yml`, respectively. Editing entries according to the examples for you own case. If you don't hope to include any sections, deleting the corresponding yml file will be enough.
 
-If you hope to edit the publication list without changing the format, you may edit `_data/publications.yml`:
-https://github.com/yaoyao-liu/minimal-light/blob/77b1b3b31d4561091bcd739f37a2e1880e8b5ca5/_data/publications.yml#L3-L11
-
+If you hope to edit the format of the Publication or Services, feel free to edit `_includes/publications.html` or `_includes/services.html`.
 
 ### Stylesheet
 
@@ -172,11 +170,13 @@ If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.
 
 ## License
 
-This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
+This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/Xiao-Chenguang/minimal-light/blob/master/LICENSE) License.
 
 ## Acknowledgements
 
-Our project uses the source code from the following repositories:
+This project is a fork of the [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
+
+The original project uses the source code from the following repositories:
 
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
