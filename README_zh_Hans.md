@@ -1,10 +1,10 @@
 # Minimal Light 主题
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/Xiao-Chenguang/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/Xiao-Chenguang/minimal-light/blob/main/LICENSE)
 
-\[[在线演示](https://minimal-light-theme.yliu.me/)\] \[[繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
+\[[在线演示](https://xiao-chenguang.github.io/minimal-light/)\] \[[繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md) | [English](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
  
-*这个项目包含我主页的源代码. 基于 GitHub 官方主题之一 [minimal](https://github.com/orderedlist/minimal) 创建*
+*这个项目是yaoyao-liu主页源代码的一个分支. 基于 GitHub 官方主题之一 [minimal](https://github.com/orderedlist/minimal) 创建*
 <br>
 *如果您喜欢这个项目，欢迎您使用和分享*
 
@@ -23,7 +23,7 @@
 只要在你的项目中添加如下内容的`_config.yml`文件，GitHub Pages 服务就会使用该主题部署网页:
 
 ```yaml
-remote_theme: yaoyao-liu/minimal-light
+remote_theme: Xiao-Chenguang/minimal-light
 ```
 请注意：添加上述内容到你的项目，会直接应用这个仓库的所有的默认设置。
 
@@ -40,7 +40,7 @@ remote_theme: yaoyao-liu/minimal-light
 克隆这个项目:
 
 ```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
+git clone https://github.com/Xiao-Chenguang/minimal-light.git
 cd minimal-light
 ```
 安装并运行:
@@ -69,7 +69,8 @@ email: yourname (at) example.edu
 # 搜索引擎优化 (SEO)
 keywords: minimal light
 description: 在这里输入网页描述.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://xiao-chenguang.github.io/minimal-light/
+
 
 # 链接
 google_scholar: https://scholar.google.com/
@@ -109,18 +110,20 @@ google_analytics: UA-111540567-4
 
 如果你需要修改网页的 html 样式:
 
-1. 从本项目中[复制原始模板](https://github.com/yaoyao-liu/minimal-light/blob/master/_layouts/homepage.html)<br />(*小提示: 点击"raw"可以直接显示原始文件, 拷贝起来更方便*)
+1. 从本项目中[复制原始模板](https://github.com/Xiao-Chenguang/minimal-light/blob/master/_layouts/homepage.html)<br />(*小提示: 点击"raw"可以直接显示原始文件, 拷贝起来更方便*)
 2. 在你的项目中创建`/_layouts/homepage.html`文件
 3. 把第一步中复制的原始模板粘贴进去
 4. 根据自己的需求修改 html 文件
 
 ## 许可证
 
-这个项目使用 [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) 许可证.
+这个项目使用 [Creative Commons Zero v1.0 Universal](https://github.com/Xiao-Chenguang/minimal-light/blob/master/LICENSE) 许可证.
 
 ## 致谢
 
-我们的项目用到了以下项目的源代码:
+这个项目是[yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)的一个分支.
+
+原项目用到了以下项目的源代码:
 
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
