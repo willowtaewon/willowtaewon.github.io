@@ -1,11 +1,11 @@
-### Diese Datei wird automatisch von [Google Translate](https://translate.google.com/) übersetzt. Wenn es Fehler gibt, lesen Sie bitte [die englische Version](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) und erstellen Sie eine [Pull-Anfrage](https://github.com/yaoyao-liu/minimal-light/pulls), um diese zu beheben. Vielen Dank.
+### Diese Datei wird automatisch von [Google Translate](https://translate.google.com/) übersetzt. Wenn es Fehler gibt, lesen Sie bitte [die englische Version](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README.md) und erstellen Sie eine [Pull-Anfrage](https://github.com/Xiao-Chenguang/minimal-light/pulls), um diese zu beheben. Vielen Dank.
 # Das Minimal Light Thema
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/Xiao-Chenguang/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/Xiao-Chenguang/minimal-light/blob/main/LICENSE)
 
-\[[Demo](https://minimal-light-theme.yliu.me/)\]  \[[English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
- 
-*Dies ist der Quellcode meiner Homepage. Ich baue diese Website basierend auf [minimal](https://github.com/orderedlist/minimal).*
+\[[Demo](https://xiao-chenguang.github.io/minimal-light/)\]  \[[English](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README.md) | [简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md)\]
+
+*Dit is een verbeterde fork van de homepage van yaoyao-liu. Hij bouwde deze gebaseerd op [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Sie können den Quellcode jederzeit verwenden und freigeben.*
 
@@ -15,7 +15,7 @@
 - Jekyll-Theme, wird automatisch von GitHub-Seiten bereitgestellt
 - Grundlegende Suchmaschinenoptimierung
 - Handyfreundlich
-- Support Markdown 
+- Support Markdown
 - Unterstützt den dunklen Modus
 
 ## Verwendung
@@ -24,12 +24,12 @@
 
 Um dieses Thema zu verwenden, fügen Sie dem `_config.yml` Ihres Repositorys Folgendes hinzu:
 ```yaml
-remote_theme: yaoyao-liu/minimal-light
+remote_theme: Xiao-Chenguang/minimal-light
 ```
 
 Bitte beachten Sie, dass durch Hinzufügen der obigen Zeile alle Standardeinstellungen in diesem Repository direkt auf Ihre angewendet werden.
 
-Wenn Sie Dateien bearbeiten möchten (z. B. `index.md`), müssen Sie sie dennoch in Ihr Repository kopieren. 
+Wenn Sie Dateien bearbeiten möchten (z. B. `index.md`), müssen Sie sie dennoch in Ihr Repository kopieren.
 
 Sie können dieses Repository auch verzweigen (oder [Verwenden Sie dieses Repository als Vorlage](https://docs.github.com/de/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) und ändern Sie den Namen in `your-username.github.io`.
 
@@ -42,7 +42,7 @@ Dann müssen Sie die GitHub-Seiten für dieses Repository aktivieren, indem Sie 
 Klonen Sie dieses Repository:
 
 ```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
+git clone https://github.com/Xiao-Chenguang/minimal-light.git
 cd minimal-light
 ```
 Installieren und ausführen:
@@ -52,7 +52,7 @@ bundle install
 bundle exec jekyll server
 ```
 
-Zeigen Sie die Live-Seite mit `localhost` an: 
+Zeigen Sie die Live-Seite mit `localhost` an:
 <http://localhost:4000>. Sie können die HTML-Dateien im Ordner `_site` abrufen.
 
 ## Customizing
@@ -72,7 +72,7 @@ email: yourname (at) example.edu
 # Die folgenden Informationen werden verwendet, um den Website-Traffic von Suchmaschinen, z. B. Google, zu verbessern.
 keywords: minimal light
 description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://xiao-chenguang.github.io/minimal-light/
 
 # Verknüpfungen
 # Wenn Sie eine davon nicht benötigen, können Sie die entsprechende Zeile löschen.
@@ -115,18 +115,20 @@ Wenn Sie Ihre eigenen benutzerdefinierten Stile hinzufügen möchten:
 
 Wenn Sie das HTML-Layout des Themas ändern möchten:
 
-1. [Kopieren Sie die Originalvorlage](https://github.com/yaoyao-liu/minimal-light/blob/master/_layouts/homepage.html) aus dem Repository des Themas<br />(*Tipp: Klicken Sie auf "raw", um das Kopieren zu vereinfachen*)
+1. [Kopieren Sie die Originalvorlage](https://github.com/Xiao-Chenguang/minimal-light/blob/master/_layouts/homepage.html) aus dem Repository des Themas<br />(*Tipp: Klicken Sie auf "raw", um das Kopieren zu vereinfachen*)
 2. Erstellen Sie auf Ihrer Site eine Datei mit dem Namen `/_layouts/homepage.html`
 3. Fügen Sie den im ersten Schritt kopierten Standardlayoutinhalt ein
 4. Passen Sie das Layout nach Ihren Wünschen an
 
 ## Lizenz
 
-Diese Arbeit unterliegt den Bestimmungen einer [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) Lizenz. 
+Diese Arbeit unterliegt den Bestimmungen einer [Creative Commons Zero v1.0 Universal](https://github.com/Xiao-Chenguang/minimal-light/blob/master/LICENSE) Lizenz.
 
 ## Danksagung
 
-Unser Projekt verwendet den Quellcode aus den folgenden Repositorys:
+Dit project is een fork van de [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light) repository.
+
+Het originele project gebruikt de broncode van de volgende repositories:
 
 * [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
