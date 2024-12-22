@@ -4,7 +4,7 @@
 
 \[[Demo the theme](https://xiao-chenguang.github.io/minimal-light/)\]  \[[简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
  
-*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
+*This is a improved fork of yaoyao-liu' homepage. He build this based on [minimal](https://github.com/orderedlist/minimal).*
 <br>
 *Feel free to use and share the source code anywhere you like.*
 
@@ -116,7 +116,7 @@ email: yourname (at) example.edu
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: minimal light
 description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://xiao-chenguang.github.io/minimal-light/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
