@@ -1,12 +1,12 @@
-### 這份說明文檔僅將文字從簡體中文轉化為繁體中文，並沒有針對繁體中文地區的名詞和使用習慣進行優化。如果有錯誤或者表述不清楚的內容，可以參照[英文版本](https://github.com/yaoyao-liu/minimal-light/blob/main/README.md)。歡迎通過 [pull requests](https://github.com/yaoyao-liu/minimal-light/pulls) 更正該文檔。
+### 這份說明文檔僅將文字從簡體中文轉化為繁體中文，並沒有針對繁體中文地區的名詞和使用習慣進行優化。如果有錯誤或者表述不清楚的內容，可以參照[英文版本](https://github.com/Xiao-Chenguang/minimal-light/blob/main/README.md)。歡迎通過 [pull requests](https://github.com/Xiao-Chenguang/minimal-light/pulls) 更正該文檔。
 
 # Minimal Light 主題
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/Xiao-Chenguang/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/Xiao-Chenguang/minimal-light/blob/main/LICENSE)
 
-\[[在線演示](https://minimal-light-theme.yliu.me/)\] \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [English](https://github.com/yaoyao-liu/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
+\[[在線演示](https://xiao-chenguang.github.io/minimal-light/)\] \[[简体中文](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_zh_Hans.md) | [English](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README.md) | [Deutsche](https://github.com/Xiao-Chenguang/minimal-light/blob/master/README_de.md)\]
  
-*這個項目包含我主頁的源代碼. 基於 GitHub 官方主題之一 [minimal](https://github.com/orderedlist/minimal) 創建*
+*這個項目是yaoyao-liu主頁源代碼的一個分支. 基於 GitHub 官方主題之一 [minimal](https://github.com/orderedlist/minimal) 創建*
 <br>
 *如果您喜歡這個項目，歡迎您使用和分享*
 
@@ -25,7 +25,7 @@
 只要在你的項目中添加如下內容的`_config.yml`文件，GitHub Pages 服務就會使用該主題部署網頁:
 
 ```yaml
-remote_theme: yaoyao-liu/minimal-light
+remote_theme: Xiao-Chenguang/minimal-light
 ```
 請注意：添加上述內容到你的項目，會直接應用這個倉庫的所有的默認設置。
 
@@ -42,7 +42,7 @@ remote_theme: yaoyao-liu/minimal-light
 克隆這個項目:
 
 ```bash
-git clone https://github.com/yaoyao-liu/minimal-light.git
+git clone https://github.com/Xiao-Chenguang/minimal-light.git
 cd minimal-light
 ```
 安裝並運行:
@@ -71,7 +71,8 @@ email: yourname (at) example.edu
 # 搜索引擎優化 (SEO)
 keywords: minimal light
 description: 在這裡輸入網頁描述.
-canonical: https://minimal-light-theme.yliu.me/
+canonical: https://xiao-chenguang.github.io/minimal-light/
+
 
 # 鏈接
 google_scholar: https://scholar.google.com/
@@ -111,16 +112,18 @@ google_analytics: UA-111540567-4
 
 如果你需要修改網頁的 html 樣式:
 
-1. 從本項目中[複製原始模板](https://github.com/yaoyao-liu/minimal-light/blob/master/_layouts/homepage.html)<br />(*小提示: 點擊"raw "可以直接顯示原始文件, 拷貝起來更方便*)
+1. 從本項目中[複製原始模板](https://github.com/Xiao-Chenguang/minimal-light/blob/master/_layouts/homepage.html)<br />(*小提示: 點擊"raw "可以直接顯示原始文件, 拷貝起來更方便*)
 2. 在你的項目中創建`/_layouts/homepage.html`文件
 3. 把第一步中復制的原始模板粘貼進去
 4. 根據自己的需求修改 html 文件
 
 ## 許可證
 
-這個項目使用 [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) 許可證.
+這個項目使用 [Creative Commons Zero v1.0 Universal](https://github.com/Xiao-Chenguang/minimal-light/blob/master/LICENSE) 許可證.
 
 ## 致謝
+
+這個項目是[yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)的一個分支.
 
 我們的項目用到了以下項目的源代碼:
 
