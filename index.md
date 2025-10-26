@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a second-year ECE M.S. student at the University of Michigan, advised by Prof. [Liyue Shen](https://liyueshen.engin.umich.edu/). I am also working with Prof. [Jeff Fessler](https://eecs.engin.umich.edu/people/fessler-jeffrey-a/).
+I am a second-year ECE M.S. student at the University of Michigan, advised by Prof. [Liyue Shen](https://liyueshen.engin.umich.edu/). I am also working with Prof. [Jeff Fessler](https://web.eecs.umich.edu/~fessler/).
 
 
 <!-- ## Research Interests
